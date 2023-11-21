@@ -1,21 +1,47 @@
-/*
+/* 
     RESET
 */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/*
-GENERAL
-*/
-
-html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+/* 
+    GENERAL
+*/
+.box {
+    padding: 20px;
+    margin: 1px;
+    text-align: center;
+    color: white;
+    background-color: lightcoral;
+    border: 1px dashed green;
+    margin-bottom: 1px;
+}
+
+.inner-box {
+    margin: 1px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 1px dashed black;
+    text-align: center;
+    color: white;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.full-height-box {
+    height: 100%;
+}
+
+.row.center{
+    justify-content: center;
+}
+
+.row.end{
+    justify-content: end;
 }
