@@ -45,3 +45,23 @@
 .row.end{
     justify-content: end;
 }
+
+.box.double-padding{
+    padding: 40px;
+}
+
+.row.middle{
+    align-items: center;
+}
+
+.row.bottom{
+    align-items: end;
+}
+
+.row.space-around{
+    justify-content: space-around;
+}
+
+.row.space-between{
+    justify-content: space-between;
+}
